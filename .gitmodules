@@ -4,3 +4,9 @@
 [submodule "themes/terminal"]
 	path = themes/terminal
 	url = https://github.com/panr/hugo-theme-terminal.git
+[submodule "hugo-theme-diary"]
+	path = hugo-theme-diary
+	url = https://github.com/AmazingRise/hugo-theme-diary/
+[submodule "themes/diary"]
+	path = themes/diary
+	url = https://github.com/AmazingRise/hugo-theme-diary/
