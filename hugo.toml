@@ -1,12 +1,10 @@
-baseURL = 'https://blog.chengjf.com/'
-languageCode = 'zh-cn'
-DefaultContentLanguage = "zh"
-title = 'chengjf'
-copyright = "This is chengjf's blog."
-theme = 'diary'
-
-paginate = 5
-
+baseURL = "https://blog.chengjf.com/"
+DefaultContentLanguage = "zh" # Theme's display language, supports: en, fr, zh, zh-hant
+languageCode = "zh-cn"
+title = "Chengjf"
+copyright = "This is a chengjf's blog."
+theme = "diary"
+# googleAnalytics = "UA-123-45"
 
 [markup]
   [markup.highlight]
@@ -21,47 +19,35 @@ paginate = 5
     tabWidth = 4
 
 [params]
-subtitle = "活在当下"
+subtitle = ""
 enableGitalk = false
 enableGiscus = true
 
 
 # Twitter Card and Open Graph settings
-enableOpenGraph = true
-enableTwitterCards = true
+enableOpenGraph = false
+enableTwitterCards = false
 title = "My Blog" # will set 'og:site_name'
 description = "My HomePage Description"  # will set 'og:description'
 
-[params.gitalk]
-  owner = "user"
-  repo = "repo name"
-  client_id = "your client id"
-  client_secret = "your client secret"
 [taxonomies]
    tag = "tags"
    category = "categories"
 
-[params.utterances]
-repo="your repo"
-term="[ENTER TERM HERE]"
-label="your label"
-theme="github-light"
-
 # Please visit https://giscus.app/ to generate settings.
 [params.giscus]
-  data-repo="chengjf/discussion.blog.chengjf.com"
-  data-repo-id="R_kgDOK69LoQ"
-  data-category="Announcements"
-  data-category-id="DIC_kwDOK69Loc4Cb06P"
-  data-mapping="title"
-  data-strict="0"
-  data-reactions-enabled="1"
-  data-emit-metadata="0"
-  data-input-position="top"
-  data-theme="preferred_color_scheme"
-  data-lang="zh-CN"
-  data-loading="lazy"
-  crossorigin="anonymous"
+    data_repo="chengjf/discussion.blog.chengjf.com"
+    data_repo-id="R_kgDOK69LoQ"
+    data_category="Announcements"
+    data_category-id="DIC_kwDOK69Loc4Cb06P"
+    data_mapping="og:title"
+    data_strict="0"
+    data_reactions-enabled="1"
+    data_emit-metadata="0"
+    data_input-position="top"
+    data_theme="preferred_color_scheme"
+    data_lang="zh-CN"
+    crossorigin="anonymous"
 
 [[menu.main]]
 url = "/categories"
@@ -75,4 +61,3 @@ weight = 3
 url = "/posts"
 name = "博文"
 weight = 1
-
