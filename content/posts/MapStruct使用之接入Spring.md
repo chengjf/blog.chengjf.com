@@ -23,7 +23,9 @@ public class X {
 public class Y {  
     private String firstName;  
     private String typeName;  
-}```
+}
+```
+
 
 ### 创建Spring的service
 
